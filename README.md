@@ -27,7 +27,7 @@ cd n8n-workflow
 
 
 ## Import Workflow into n8n
-
+```bash
 1. Open n8n
 2. Click Import from file
 3. Select workflow.json from this repository.
@@ -38,18 +38,18 @@ Google Drive API
 Twilio WhatsApp
 
 OpenAI API
----
+
 
 ## Usage
-
+```bash
 Send commands to your WhatsApp-connected Twilio number:
 
 LIST /FolderName
 SUMMARY /FolderName
 DELETE /FolderName/filename.pdf
----
-## 📂 Project Structure
 
+## 📂 Project Structure
+```bash
 📦 project-folder
  ┣ 📜 workflow.json         # n8n workflow file
  ┣ 📜 README.md             # Documentation
@@ -61,7 +61,7 @@ DELETE /FolderName/filename.pdf
 Click here to watch the demo : https://www.veed.io/view/17d1b8cd-1b55-4a26-a60d-e160b413e184?panel=share
 
 ##🧑‍💻 Author
-
+```bash
 Sriram A.
 
 Student, BE CSE
@@ -69,7 +69,7 @@ Student, BE CSE
 GitHub: your-github-profile
 
 ##⚠️ Notes
-
+```bash
 The current DELETE function is restricted due to Google Drive API permission scope.
 
 Ensure to enable https://www.googleapis.com/auth/drive for full file access.
