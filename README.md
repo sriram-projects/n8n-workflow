@@ -17,7 +17,7 @@ This project is part of an internship task to create an **n8n workflow** that li
 4. **OpenAI API key** (for summarisation)  
 5. Node.js and npm (if running locally)
 
-
+---
 ## 🛠 Setup Instructions
 
 ### 1. Clone the Repository
@@ -38,7 +38,7 @@ Google Drive API
 Twilio WhatsApp
 
 OpenAI API
-
+---
 
 ## Usage
 
@@ -47,7 +47,7 @@ Send commands to your WhatsApp-connected Twilio number:
 LIST /FolderName
 SUMMARY /FolderName
 DELETE /FolderName/filename.pdf
-
+---
 ## 📂 Project Structure
 
 📦 project-folder
